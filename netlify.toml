@@ -1,0 +1,8 @@
+[build]
+  base = "blogapp"  # Base directory for your build
+  publish = "blogapp/build"  # Publish directory for the built files
+  command = "npm run build"  # Build command to run
+
+[dev]
+  command = "npm start"  # Command for local development
+  publish = "blogapp/build"  # Local publish directory
